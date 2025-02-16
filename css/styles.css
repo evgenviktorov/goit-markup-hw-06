@@ -880,10 +880,15 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal-cont.is-open {
-  display: none;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .modal {
@@ -1115,10 +1120,16 @@ img {
   transform: translateX(100%);
   overflow: scroll;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .mobile-menu.is-open {
   transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .container {
