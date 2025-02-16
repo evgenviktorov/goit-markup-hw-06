@@ -1185,6 +1185,7 @@ img {
   flex-direction: row;
   gap: 40px;
   margin-top: 48px;
+  margin-bottom: 40px;
 }
 .social-mob-menu-icons-item {
   width: 40px;
