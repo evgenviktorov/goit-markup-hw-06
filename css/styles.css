@@ -35,6 +35,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -1096,6 +1098,11 @@ img {
 /* #endregion Section Modal ==================================================== */
 
 /* #region MobMenu ==================================================== */
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 
 .container-mob-menu {
   position: relative;
