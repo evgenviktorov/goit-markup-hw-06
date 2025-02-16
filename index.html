@@ -50,7 +50,7 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-mobile-btn">
+        <button type="button" class="menu-mobile-btn" data-mob-menu-open>
           <svg width="24" height="24">
             <use href="./images/icons.svg#burger"></use>
           </svg>
@@ -707,9 +707,9 @@
     <!-- #endregion Modal ==================================================== -->
 
     <!-- #region MobMenu ==================================================== -->
-    <div class="mobile-menu">
+    <div class="mobile-menu" mob-menu-modal>
       <div class="container container-mob-menu">
-        <button class="mobile-close-btn" type="button">
+        <button class="mobile-close-btn" type="button" data-mob-menu-close>
           <svg class="close-icon-mob" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
           </svg>
@@ -775,6 +775,7 @@
     </div>
     <!-- #endregion MobMenu ==================================================== -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mob-menu.js"></script>
   </body>
 </html>
 <!-- EV -->
