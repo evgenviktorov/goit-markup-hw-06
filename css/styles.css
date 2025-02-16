@@ -1107,6 +1107,7 @@ img {
 .container-mob-menu {
   position: relative;
   padding-top: 72px;
+  padding-bottom: 40px;
 }
 
 .mobile-menu {
@@ -1198,7 +1199,6 @@ img {
   flex-direction: row;
   gap: 40px;
   margin-top: 48px;
-  margin-bottom: 40px;
 }
 .social-mob-menu-icons-item {
   width: 40px;
