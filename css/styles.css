@@ -1108,6 +1108,9 @@ img {
   position: relative;
   padding-top: 72px;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .mobile-menu {
@@ -1135,6 +1138,7 @@ img {
 
 .container {
 }
+
 .mobile-close-btn {
   position: absolute;
   top: 24px;
@@ -1149,9 +1153,12 @@ img {
   align-items: center;
   justify-content: center;
 }
+
 .close-icon-mob {
 }
-
+.nav-mob-menu {
+  margin-bottom: auto;
+}
 .list-mob-menu {
   display: flex;
   align-items: flex-start;
